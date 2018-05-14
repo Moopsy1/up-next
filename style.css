@@ -1,0 +1,50 @@
+body {
+    background: gainsboro;
+    text-align: center;
+
+}
+
+#player {
+    height: 360px;
+    width: 640px;
+    background: grey;
+    margin: auto auto;
+    border: solid 2px goldenrod;
+}
+
+h1 {
+    font-family: "Bauhaus 93", sans-serif;
+    border: solid 2px goldenrod;
+}
+
+#playlist {
+    margin: auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#playlist td,
+#playlist th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+#playlist tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#playlist tr:hover {
+    background-color: #ffff;
+}
+
+#playlist th {
+   padding: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#upNext {
+    margin: 8px;
+}
